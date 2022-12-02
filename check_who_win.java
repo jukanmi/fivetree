@@ -1,6 +1,11 @@
 
 
 public class main {
+	/**
+	 * check - 누가 이겼는지 정해주는 함수
+	 * @param plate - 19x19사이즈의 판
+	 * @return 이긴사람의 돌 번호를 둘려줌 아므도 못이겼을 경우 0
+	 */
 	static int check(int[][] plate) {
 		int temp=-1;
 		int num=0;
